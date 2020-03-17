@@ -1,0 +1,22 @@
+public class MotoPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Moto moto1 = new Moto ("Azul","Honda","PCX");  //instanciando
+		
+		System.out.println("Características da moto: "); 
+		
+		moto1.CaracteristicasMoto(); //apresentando
+		
+		System.out.println();
+		
+		System.out.println("Características depois de alterar: ");
+		
+		moto1.setCor("Preto");   //alterando o valor
+		moto1.setMarca("Yamaha");
+		moto1.setModelo("XT 660R");
+		
+		moto1.CaracteristicasMoto(); //apresentando
+
+   }
+}
